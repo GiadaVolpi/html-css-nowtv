@@ -111,6 +111,14 @@
     margin-left: calc(100% / 12);
 }
 
+.hidden-lg {
+    display: none;
+}
+
+.visible-lg {
+    display: block;
+}
+
 
 @media screen and (max-width:1200px) {
     .container {
@@ -219,6 +227,14 @@
     .md-offset-0 {
         margin-left: 0;
     }
+
+    .hidden-md {
+        display: none;
+    }
+
+    .visible-md {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -322,5 +338,13 @@
 
     .xs-offset-0 {
         margin-left: 0;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+
+    .visible-xs {
+        display: block;
     }
 }
